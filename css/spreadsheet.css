@@ -1,0 +1,14 @@
+body {
+	font-family: sans-serif;
+}
+
+#menu {
+	font-size: 1.2em;
+	margin: 0 0 0 0;
+	padding-bottom: 5px;
+	top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
