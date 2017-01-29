@@ -1,0 +1,13 @@
+body {
+	font-family: sans-serif;
+}
+
+nav {
+	display: inline;
+	text-align: center;
+}
+
+#navbar {
+	display: inline;
+	list-style-type: none;
+}
