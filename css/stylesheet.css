@@ -1,0 +1,238 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+/*start nav*/
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 1.4em;
+	padding-bottom: 1.4em;
+}
+
+nav ul li a {
+	line-height: 2em;
+	padding: .1em 1.4em;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #dd3333;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+
+nav ul {
+	position: fixed;
+	z-index: 1;
+	margin: 0;
+	padding: 0% 0% 0% 70%;
+	background-color: #ededed;
+	width: 100%;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+#logo {
+	position: fixed;
+	top: 3%;
+	bottom: 3%;
+	left: 3%;	
+}
+
+/*end nav*/
+
+
+/*start element specific items*/
+
+table, tr, td {
+	padding: 0;
+	margin: 0;
+	/*border: solid black;*/
+	
+}
+
+button {
+	background-color: rgb(221, 57, 54);
+	color: white;
+	font-size: 1.5em;
+	font-weight: 100;
+	text-shadow: 0px 2px rgba(0,0,0,.3);
+	border: 2px;
+    border-radius: 25px;
+	padding: .5em 1.5em .5em 1.5em;
+}
+
+button:hover {
+	background-color: rgb(191, 45, 45);
+	transition: 1s;
+	cursor: pointer;
+}
+
+/*end element specific items*/
+
+/* start home page stuff*/
+
+#first-table {
+	display: table;
+	width: 100%;
+}
+
+#first-table h1 {
+	position: relative;
+	padding-left: 1em;
+	font-weight: 300;
+	font-size: 5em;
+}
+
+#first-table button {
+	position: relative;
+	left: 4em;
+	top: 0;	
+}
+
+#hero {
+	padding-right: 2em;
+}
+
+#second {
+	width: 100%;
+	padding-top: 2em;
+	text-align: center;
+	
+}
+
+#second h3 {
+	font-weight: 300;
+	font-size: 3em;
+	padding: 0;
+	margin: 0 0 .5em 0;
+}
+
+#second p {
+	font-size: 1.5em;
+	font-weight: 300;
+	padding: 0 0 .5em 0;
+	margin: 0;
+}
+
+#third {
+	padding-top: 2em;
+	background-color: white;
+	text-align: center;
+	width: 100%;
+
+}
+
+#third h3 {
+	color: #000000;
+	font-weight: 300;
+	font-size: 3em;
+	padding: 0;
+	margin: 0 0 .5em 0;
+}
+
+#third-table {
+	display: table;
+	color: black;
+	width: 100%;
+	text-align: center;
+	padding:0 2em 2em 2em;
+}
+
+#fourth {
+	padding-top: 2em;
+	text-align: center;
+	width: 100%;
+	color: white;
+	padding-bottom: 3em;
+}
+
+#fourth-table {
+	display: table;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding:0 4em 2em 2em;
+}
+
+#fourth td {
+	padding: 0 2em 0 4em;
+}
+
+#fourth h3 {
+	color: white;
+	margin-bottom: 0;
+}
+
+#fourth p {
+	font-size: 1.4em;
+	font-weight: 300;
+}
+
+#fourth button {
+	margin-top: 1.5em;
+	font-size: 2em;	
+	border: 2px;
+    border-radius: 30px;
+	padding: .5em 1.5em .5em 1.5em;
+}
+
+/*end home page stuff*/
+
+.red {
+	background-color: #ff3f3f;
+	
+}
+
+.first {
+	padding-top: 5.6em;
+}
+
+.center {
+	text-align: center;
+}
+
+#email-first h1 {
+	font-weight: 300;
+	font-size: 3em;
+	margin-bottom: 1.5em;
+	padding-bottom: 0;
+}
+
+#email-first h2 {
+	font-weight: 300;
+	font-size: 3.5em;
+	padding-bottom: 0em;
+	margin-bottom: 1em;
+	line-height: 0;
+}
+
+#email-first h3 {
+	font-weight:300;
+	font-size: 2em;
+}
+
+#email-first {
+	padding-bottom: 2em;
+}
+
+#video {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.green {
+	background-color: #1ed760;
+}
+
+.blue {
+	background-color: #2655FF;
+}
+
+
