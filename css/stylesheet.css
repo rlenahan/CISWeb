@@ -235,4 +235,26 @@ button:hover {
 	background-color: #2655FF;
 }
 
+.table { 
+	display: table; 
+	width: 100%;
+}
+.row { 
+	display: table-row;
+}
+.cell { 
+	display: table-cell;
+	padding:0;
+}
 
+.table-left {
+	padding-left: 6em;
+	padding-top: 3em;
+}
+
+#features h2{
+	margin: 0;
+	padding:0;
+	font-weight:300;
+	font-size: 2em;
+}
