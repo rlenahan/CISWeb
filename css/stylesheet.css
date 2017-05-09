@@ -50,14 +50,7 @@ nav a:hover {
 
 /*start element specific items*/
 
-table, tr, td {
-	padding: 0;
-	margin: 0;
-	/*border: solid black;*/
-	
-}
-
-button {
+.button {
 	background-color: rgb(221, 57, 54);
 	color: white;
 	font-size: 1.5em;
@@ -66,9 +59,15 @@ button {
 	border: 2px;
     border-radius: 25px;
 	padding: .5em 1.5em .5em 1.5em;
+	text-decoration: none;
 }
 
-button:hover {
+.button a {
+	color: white;
+	text-decoration: none;
+}
+
+.button:hover {
 	background-color: rgb(191, 45, 45);
 	transition: 1s;
 	cursor: pointer;
@@ -78,23 +77,21 @@ button:hover {
 
 /* start home page stuff*/
 
+
 #first-table {
-	display: table;
-	width: 100%;
+	padding-top: 5.6em;
 }
 
-#first-table h1 {
+#cell-right {
+	padding: 3em 2em 0 3em;
+}
+
+.table h1 {
 	position: relative;
-	padding-left: 1em;
 	font-weight: 300;
 	font-size: 5em;
 }
 
-#first-table button {
-	position: relative;
-	left: 4em;
-	top: 0;	
-}
 
 #hero {
 	padding-right: 2em;
@@ -121,7 +118,7 @@ button:hover {
 	margin: 0;
 }
 
-#third {
+#featured-on {
 	padding-top: 2em;
 	background-color: white;
 	text-align: center;
@@ -129,7 +126,7 @@ button:hover {
 
 }
 
-#third h3 {
+#featured-on h3 {
 	color: #000000;
 	font-weight: 300;
 	font-size: 3em;
@@ -137,11 +134,7 @@ button:hover {
 	margin: 0 0 .5em 0;
 }
 
-#third-table {
-	display: table;
-	color: black;
-	width: 100%;
-	text-align: center;
+#table-features {
 	padding:0 2em 2em 2em;
 }
 
@@ -244,7 +237,7 @@ button:hover {
 }
 .cell { 
 	display: table-cell;
-	padding:0;
+	vertical-align: top;
 }
 
 .table-left {
@@ -257,4 +250,46 @@ button:hover {
 	padding:0;
 	font-weight:300;
 	font-size: 2em;
+}
+
+#index-button-last {
+	padding: 2em 2em 2em 2em;
+	text-align: center;
+}
+
+
+.lightbox {
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  height: 50%;
+  width: 80%;
+  top: 70em;
+  left: 10%;
+  display: none;
+  text-align: center;
+  padding-bottom: 3em;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.lightbox:target {
+  display:block;
+}
+
+#lightboxing {
+	text-align: center;
+	padding-top: 2em;
+	font-weight: 300;
+}
+
+.lightbox h2 {
+	margin: 0;
+	padding:0;
+	font-weight:300;
+	font-size: 2em;
+}
+
+.lightbox ul li {
+	list-style-type: none;
+	padding: 0 0 1.5em 0;
 }
