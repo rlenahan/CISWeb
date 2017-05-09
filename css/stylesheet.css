@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -48,7 +53,7 @@ nav a:hover {
 /*end nav*/
 
 
-/*start element specific items*/
+/*start general items*/
 
 .button {
 	background-color: rgb(221, 57, 54);
@@ -73,17 +78,63 @@ nav a:hover {
 	cursor: pointer;
 }
 
-/*end element specific items*/
+.red {
+	background-color: #ff3f3f;
+}
+
+.green {
+	background-color: #1ed760;
+}
+
+.blue {
+	background-color: #2655FF;
+}
+
+.first {
+	padding-top: 5.6em;
+}
+
+.center {
+	text-align: center;
+}
+
+.table { 
+	display: table; 
+	width: 100%;
+}
+
+.row { 
+	display: table-row;
+}
+
+.cell { 
+	display: table-cell;
+	vertical-align: top;
+}
+
+/*end general items*/
 
 /* start home page stuff*/
-
 
 #first-table {
 	padding-top: 5.6em;
 }
 
+#first-table h1 {
+	padding-bottom: 1em;
+}
+
 #cell-right {
 	padding: 3em 2em 0 3em;
+}
+
+#cell-right h3 {
+	padding-bottom: 1em;	
+}
+
+#cell-right p {
+	line-height: 1.5em;
+	padding-bottom: 2em;
 }
 
 .table h1 {
@@ -91,7 +142,6 @@ nav a:hover {
 	font-weight: 300;
 	font-size: 5em;
 }
-
 
 #hero {
 	padding-right: 2em;
@@ -123,7 +173,6 @@ nav a:hover {
 	background-color: white;
 	text-align: center;
 	width: 100%;
-
 }
 
 #featured-on h3 {
@@ -138,58 +187,18 @@ nav a:hover {
 	padding:0 2em 2em 2em;
 }
 
-#fourth {
-	padding-top: 2em;
+#table-features .cell {
+	vertical-align: middle;
+}
+
+#index-button-last {
+	padding: 2em 2em 2em 2em;
 	text-align: center;
-	width: 100%;
-	color: white;
-	padding-bottom: 3em;
-}
-
-#fourth-table {
-	display: table;
-	color: white;
-	width: 100%;
-	text-align: center;
-	padding:0 4em 2em 2em;
-}
-
-#fourth td {
-	padding: 0 2em 0 4em;
-}
-
-#fourth h3 {
-	color: white;
-	margin-bottom: 0;
-}
-
-#fourth p {
-	font-size: 1.4em;
-	font-weight: 300;
-}
-
-#fourth button {
-	margin-top: 1.5em;
-	font-size: 2em;	
-	border: 2px;
-    border-radius: 30px;
-	padding: .5em 1.5em .5em 1.5em;
 }
 
 /*end home page stuff*/
 
-.red {
-	background-color: #ff3f3f;
-	
-}
-
-.first {
-	padding-top: 5.6em;
-}
-
-.center {
-	text-align: center;
-}
+/*start second page stuff*/
 
 #email-first h1 {
 	font-weight: 300;
@@ -209,6 +218,7 @@ nav a:hover {
 #email-first h3 {
 	font-weight:300;
 	font-size: 2em;
+	padding-bottom: .5em;
 }
 
 #email-first {
@@ -220,26 +230,6 @@ nav a:hover {
 	padding-bottom: 2em;
 }
 
-.green {
-	background-color: #1ed760;
-}
-
-.blue {
-	background-color: #2655FF;
-}
-
-.table { 
-	display: table; 
-	width: 100%;
-}
-.row { 
-	display: table-row;
-}
-.cell { 
-	display: table-cell;
-	vertical-align: top;
-}
-
 .table-left {
 	padding-left: 6em;
 	padding-top: 3em;
@@ -247,49 +237,58 @@ nav a:hover {
 
 #features h2{
 	margin: 0;
-	padding:0;
+	padding: 1em 0 0 0;
 	font-weight:300;
 	font-size: 2em;
 }
 
-#index-button-last {
-	padding: 2em 2em 2em 2em;
-	text-align: center;
-}
-
-
 .lightbox {
-  position: absolute;
-  background-color: rgba(0,0,0,0.8);
-  height: 50%;
-  width: 80%;
-  top: 70em;
-  left: 10%;
-  display: none;
-  text-align: center;
-  padding-bottom: 3em;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	height: 50%;
+	width: 40%;
+	top: 65em;
+	left: 30%;
+	display: none;
+	text-align: center;
+	padding-bottom: 3em;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+
 }
 
 .lightbox:target {
-  display:block;
+	display: block;
 }
 
 #lightboxing {
 	text-align: center;
 	padding-top: 2em;
 	font-weight: 300;
+	text-decoration: none;
 }
 
 .lightbox h2 {
 	margin: 0;
-	padding:0;
-	font-weight:300;
+	padding: 0 0 .5em 0;
+	font-weight: 300;
 	font-size: 2em;
+	text-decoration: none;
+	color: white;
+	
+}
+
+.lightbox h3 {
+	padding: 0 0 .5em 0;
+	color: white;
+	text-decoration: none;
 }
 
 .lightbox ul li {
 	list-style-type: none;
-	padding: 0 0 1.5em 0;
+	padding: 0 0 1.2em 0;
+	text-align: center;
+	width: 100%;
+	color: white;
+	text-decoration: none;
 }
